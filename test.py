@@ -2,8 +2,8 @@ from midi_reader import midi_reader as mr
 from wave_reader import wave_reader as wr
 from utils import play_audio,npToBytes
 
-midi_file_path = "/Users/miyano2033/workspaces/data/SingVoicePitchDataset/cyx/tt/tt.midi"
-wave_file_path = "/Users/miyano2033/workspaces/data/SingVoicePitchDataset/cyx/tt/tt.wav"
+midi_file_path = "path/filename.midi"
+wave_file_path = "path/filename.wav"
 
 def read_midi(midi_path):
 	mreader = mr(midi_path)
